@@ -1,0 +1,28 @@
+.weather-me {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.weatherForecast{
+    margin-top: 2rem;
+}
+
+.weatherwrapper {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.weather-meh1 {
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+

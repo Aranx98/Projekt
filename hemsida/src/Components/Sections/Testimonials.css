@@ -1,0 +1,31 @@
+.testimonials-me {
+    line-height: 1.5rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+
+.testimonials-meh1 {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.both-sides {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.left {
+padding: 3rem;
+
+}
+
+.right {
+    padding: 3rem;
+    
+}
+
