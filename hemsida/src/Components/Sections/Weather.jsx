@@ -74,7 +74,7 @@ const Weather = () => {
                 <label>
                     <input type="text"  onChange={(e) => setPlace(e.target.value)} value={place} className="form-control" />
                 </label>
-                <button className="location-box">Get a new city!</button>  
+                <button className="location-box">Check if the weather is good</button>  
             </form> }
             <br/><br/>
            <img src="https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="weather-forecast" />

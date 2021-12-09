@@ -7,7 +7,7 @@ function About() {
          <p className="about-me"> 
          <br/>
             
-         Hi my name is Elvis and I am 22 years old.
+         Hi my name is Elvis and I am 22 years old. I like to train, hike, hang out with friends and travel.
          Through my previous experiences such as in the restaurant industry, warehouse management, service and sales, I have learned to work at a high pace, set high goals and to deliver first-class service to customers.
          This has given me a solid knowledge in creating relationships, delivering quality and service to my customers.
          I have worked everything from helping customers find the right menu to clothing and their everyday problems with insurance and banking.
