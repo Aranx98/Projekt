@@ -29,11 +29,14 @@
     display: block;
 }
 
-.image-1 {
-    grid-column-start: 1;
+/* Grid-column-start egenskapen anger ett rutnäts objekts storlek och plats i en rutnätslayout
+ grid-row-start innefattar på vilken rad som objektet ska starta.
+ grid-row-end definerar hur många rader ett objekt kommer sträcka sig över, eller på vilken rad objektet ska sluta.*/
+.image-1 { 
+    grid-column-start: 1; 
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-start: 1; 
+    grid-row-end: 5;  
 }
 
 .image-2 {
