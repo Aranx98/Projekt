@@ -12,7 +12,7 @@ const Weather = () => {
 
     useEffect(()=> {
         const cityName = newCity;
-        async function getWeather() {
+        async function getWeather() { //Här hämtar jag api:et från sidan.
             const res = await fetch  (`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=59af68615c9fd72d6b872547d0b34ff1`);
             const data = await res.json();
 
@@ -25,14 +25,14 @@ const Weather = () => {
     }, [newCity]);
 
 
-    const handleSearch = (e) => {
-        e.preventDefault();
+    const handleSearch = (e) => { //Se är den korta betydelsen för event objekt som kan skickas till event hanterare.
+        e.preventDefault(); //Metoden preventDefault() avbryter händelsen om den är avbrytbar, vilket innebär att standardåtgärden som hör till händelsen inte kommer att inträffa. 
         const city = String(e.target[0].value);
-        setNewCity(city);
+        setNewCity(city); //anger ny stad
         resetSearch();        
     }
 
-    const resetSearch = ()=>{
+    const resetSearch = ()=>{ //När det har inmatats en text på vilken stad som man vill se hur vädret är, så har det reset:ats så då kan man söka om igen.
         setPlace("");
     }
   
@@ -70,9 +70,9 @@ const Weather = () => {
             }    
 
 
-            { <form onSubmit={handleSearch} className="form">
+            { <form onSubmit={handleSearch} className="weather-meh1">
                 <label>
-                    <input type="text"  onChange={(e) => setPlace(e.target.value)} value={place} className="form-control" />
+                    <input type="text"  onChange={(e) => setPlace(e.target.value)} value={place} className="weather-me" />
                 </label>
                 <button className="location-box">Check if the weather is good</button>  
             </form> }
