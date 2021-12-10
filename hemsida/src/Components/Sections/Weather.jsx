@@ -12,7 +12,7 @@ const Weather = () => {
 
     useEffect(()=> {
         const cityName = newCity;
-        async function getWeather() { //Här hämtar jag api:et från sidan.
+        async function checkWeather() { //Här hämtar jag api:et från sidan.
             const res = await fetch  (`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=59af68615c9fd72d6b872547d0b34ff1`);
             const data = await res.json();
 
@@ -21,7 +21,7 @@ const Weather = () => {
             setCity(data);
         }
 
-        getWeather();
+        checkWeather();
     }, [newCity]);
 
 

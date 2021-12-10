@@ -7,7 +7,7 @@ import "./Login.css";
 
 
         function handleSubmit(e) {
-            e.preventDefault(); //Detta används för att hindra att koden tror att meddelandet ska skickas till en server. 
+            e.preventDefault();  //Metoden preventDefault() avbryter händelsen om den är avbrytbar, vilket innebär att standardåtgärden som hör till händelsen inte kommer att inträffa.
             console.log(e.target.text.value);
             setIsSubmitted(true);
         }
