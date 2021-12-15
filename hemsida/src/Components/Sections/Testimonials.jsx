@@ -64,8 +64,8 @@ function Testimonials() {
          <br/>Kom tvåa i säljtävlingen av ca 90 personer där vi fokuserade på att sälja försäkringar. Visade stort engagemang och drift.
          <br/><br/>
 
-         <a className="" href="https://www.linkedin.com/in/elvis-borgstr%C3%B6m-68b048160/">
-         <Button filled> LinkedIN
+         <a className="" href="/Routepage">
+         <Button filled> Route page
          </Button>
          </a>
         
